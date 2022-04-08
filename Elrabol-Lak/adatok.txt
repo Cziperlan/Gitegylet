@@ -1,0 +1,3 @@
+főoldal:-header:: iskola neve szerkesztett kép
+	-navi:: tanáraink szakok órarend események galéria
+	
