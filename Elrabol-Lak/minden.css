@@ -1,0 +1,27 @@
+.nav ul {
+    background-color: rgb(112, 111, 111);
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    float: left;
+    border-right: 1px solid white;
+}
+.nav li a {
+    color: white;
+    display: block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.nav li a:hover {
+    background-color: rgb(53, 51, 51);
+}
+
+header {
+    margin-right: 50px;
+    margin-left: 50px;
+}
