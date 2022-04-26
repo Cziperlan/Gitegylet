@@ -12,6 +12,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
 .nav li {
     float: left;
@@ -88,4 +89,15 @@ idáig afadelős kép ami adja acímét
   background-color: rgb(58, 58, 58);
   color: white;
 }
-
+ 
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  }
+  
+  .dark-mode {
+  background-color: black;
+  color: white;
+  }
