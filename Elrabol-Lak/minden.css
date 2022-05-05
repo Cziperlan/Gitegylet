@@ -143,6 +143,10 @@ idáig afadelős kép ami adja acímét
     margin-left: 300px;
     margin-right: 300px;
   }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
   .container {
     position: relative;
     width: 50%;
@@ -167,3 +171,12 @@ idáig afadelős kép ami adja acímét
     padding: 20px;
     text-align: center;
   }
+<<<<<<< Updated upstream
+=======
+  #címer{
+    width: 70px;
+    height: 150px;
+    margin-left: 10px;
+  }
+
+>>>>>>> Stashed changes
