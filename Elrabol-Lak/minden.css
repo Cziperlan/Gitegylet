@@ -86,24 +86,13 @@ idáig afadelős kép ami adja acímét
   font-size: large;
   background-color: rgb(58, 58, 58);
   color: white;
+
 }
  
-body {
-  padding: 25px;
-  background-color: white;
-  color: black;
-  font-size: 25px;
-  }
-  
 
 .ui {font-size: 0,5em;}
 .szöveg{
   color:white
-}
-table{
-  border: solid white; 
-  background-color: black;
-  color: white;
 }
   .Főcím1{
     text-align: center;
@@ -127,4 +116,30 @@ table{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
+  }
+
+  .bszoveg {
+    text-align: justify;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(110, 110, 110, 0.5);
+    box-shadow: 4px 4px 4px black;
+    text-indent: 1.5cm;
+    font-size: large;
+  }
+  .bcim {
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(117, 116, 116, 0.5);
+    box-shadow: 4px 4px 4px black;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .kozep-margo {
+    margin-left: 300px;
+    margin-right: 300px;
   }
