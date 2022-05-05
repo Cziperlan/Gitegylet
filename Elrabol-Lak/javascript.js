@@ -1,6 +1,6 @@
 var tábla = [];
-tábla[1]="9.L;";
-tábla[2]="10.L; Flexelés; Autószétkapás; Áramhálózat; ";
+tábla[1]="9.L; Erősáram; Autólopás ; Erősáram; Flexelés";
+tábla[2]="10.L; Flexelés; Autólopás; Áramhálózat; Matek ";
 tábla[3]="11.L;";
 tábla[4]="12.L;";
 
