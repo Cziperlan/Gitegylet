@@ -95,10 +95,6 @@ body {
   font-size: 25px;
   }
   
-  .dark-mode {
-  background-color: black;
-  color: white;
-  }
 
 .ui {font-size: 0,5em;}
 .szöveg{
@@ -119,5 +115,9 @@ table{
     margin-left: 250px;
   }
   .btn-group{
-    margin-left: 350px;
+    margin-left: 400px;
+  }
+  .center{
+    margin-left: auto;
+    margin-right: auto;
   }
