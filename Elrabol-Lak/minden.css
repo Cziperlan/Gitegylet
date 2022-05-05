@@ -106,3 +106,8 @@ body {
 .szöveg{
   color:white
 }
+table{
+  border: solid white; 
+  background-color: black;
+  color: white;
+}
