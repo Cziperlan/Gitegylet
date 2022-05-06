@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+        <img id="header" src="../Képek/header.jpg" alt="Elrabol-Lak Szakmunkásképző">
         <div class="btn-group btn-group-lg">
          <a href="Főoldal.html" class="btn btn-success" role="button">Főoldal</a>
          <a href="tanáraink.html" class="btn btn-success" role="button">Tanáraink</a>
@@ -24,8 +25,83 @@
       <h1 style="text-align: center; width: 1000px; margin: auto;" class="bszoveg" class="center" font-weigh="bold">Üdvözöljük iskolánk galériájában!</h1>
       <p style="text-align: center; width: 1000px; margin: auto;" class="bszoveg" class="center">Ezen az oldalon az iskolánk által készített, nagyobb eseményeken összegyűjtött fényképeket tekinthetnek meg.</p>
       <br>
-      <p style="text-align: center; width: 1000px; margin: auto;" class="bszoveg" class="center">Osztálykirándulás Pécsett a 9.E osztállyal. 27-en vettek részt, ebből 26-an legalább 200 000 forintnak megfelelő értékű fémet loptak.</p>
-      <img src="../Képek/kirándulás1.jpg" style="margin-left: 400px; width: 700px">
+
+      <!--Nesztek java script: https://www.w3schools.com/howto/howto_js_image_grid.asp 
+        Már csak meg kell tölteni képekkel.
+        -->
+
+      <div class="sor"> 
+        <div class="column">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+        </div>  
+        <div class="column">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+          <img src="" style="width:100%">
+        </div>
+      </div>
+      
+      <script>
+      var elements = document.getElementsByClassName("column");
+      var i;
+      
+      function one() {
+          for (i = 0; i < elements.length; i++) {
+          elements[i].style.msFlex = "100%";
+          elements[i].style.flex = "100%";
+        }
+      }
+      
+      function two() {
+        for (i = 0; i < elements.length; i++) {
+          elements[i].style.msFlex = "50%";
+          elements[i].style.flex = "50%";
+        }
+      }
+      
+      function four() {
+        for (i = 0; i < elements.length; i++) {
+          elements[i].style.msFlex = "25%";
+          elements[i].style.flex = "25%";
+        }
+      }
+      
+      var header = document.getElementById("myHeader");
+      var btns = header.getElementsByClassName("gombu");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+      </script>
 
 
 

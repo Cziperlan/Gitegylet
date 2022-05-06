@@ -30,9 +30,9 @@ body {
     background-color: rgb(53, 51, 51);
 }
 
-header {
-    margin-right: 50px;
-    margin-left: 50px;
+#header {
+    margin-right: 450px;
+    margin-left: 450px;
 }
 
 .kontener {
@@ -40,10 +40,10 @@ header {
     width: 50%;
 }
 
-.image {
+.m-image {
     opacity: 1;
     display: block;
-    width: 100%;
+    width: 400px;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -156,7 +156,7 @@ idáig afadelős kép ami adja acímét
     position: absolute; 
     bottom: 0; 
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1; 
     width: 100%;
     transition: .5s ease;
@@ -174,3 +174,42 @@ idáig afadelős kép ami adja acímét
   .container:hover .overlay {
     opacity: 1;
   }
+
+  .sor {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  .gombu {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .gombu:hover {
+    background-color: #ddd;
+  }
+  
+  .gombu.active {
+    background-color: #666;
+    color: white;
+  }
+  
