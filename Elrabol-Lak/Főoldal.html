@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="minden.css">
+    <script src="javascript.js"></script>
     <title>Elrabol-Lak Szakmunkásképző</title>
     <hr>
 </head>
@@ -32,6 +33,47 @@
     <img src="../Képek/Zolika.jpg" style="margin-left: 450px;">
     <p style="color: white; font-size: small; text-align: center;">Egy kép Horváth Zoltánról</p>
     <br><hr>
+
+    <form>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <label for="panelteljesitmeny">Panelteljesítmény [W] : </label>
+            </div>
+            <div class="col-12 col-md-8">
+                <input type="number" id="panelteljesitmeny" value="275" disabled>
+            </div>
+        </div>
+        <div class="row bg-white rounded p-3 text-info">
+            <div class="col-12 col-md-4">
+                <label for="panelszam">Panelek száma [db] :</label>
+            </div>
+            <div class="col-12 col-md-8">
+                <input type="range" min="2" max="26" value="8" step="1" class="slider bg-light"
+                    id="panelszam" oninput="panelek(this.value);">
+                    <div id="panelek"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <label for="osszteljesitmeny">Összteljesítmény [W] :</label>
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="slidecontainer">
+                    <input type="number" id="osszteljesitmeny" disabled>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <label for="tetofelulet">Tetőfelület [m<sup>2</sup>] :</label>
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="slidecontainer">
+                    <input type="number" id="tetofelulet" disabled>
+                </div>
+            </div>
+        </div>
+    </form>
    
 
         <p id="info-kartya">

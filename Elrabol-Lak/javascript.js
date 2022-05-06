@@ -18,3 +18,14 @@ function őrarend(){
     var elem = document.getElementById("tábla").value;
     document.getElementById("osztály").innerHTML = listaelem(tábla[elem].split(";")[0]);
 }
+
+function panelek(db){
+    const panelek=document.getElementById('panelek');
+    panelek.innerHTML="";
+    for (i = 0; i < db; i++) {
+        panelek.innerHTML += "<img src=''>"; 
+    }
+    panelek.innerHTML += "("+db+" db)";
+    document.getElementById('osszteljesitmeny').value = db * 275;
+    document.getElementById('tetofelulet').value = db * 3.5
+}
