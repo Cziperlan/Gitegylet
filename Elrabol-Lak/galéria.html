@@ -9,21 +9,49 @@
     <title>Galéria</title>
 </head>
 <body>
-    <header>
+    <header style="background-color: #a1a1a1; background-image: none;">
         <img id="header" src="../Képek/header.jpg" alt="Elrabol-Lak Szakmunkásképző">
-        <div class="btn-group btn-group-lg">
-         <a href="Főoldal.html" class="btn btn-success" role="button">Főoldal</a>
-         <a href="tanáraink.html" class="btn btn-success" role="button">Tanáraink</a>
-         <a href="események.html" class="btn btn-success" role="button">Események</a>
-         <a href="galéria.html" class="btn btn-success" role="button">Galéria</a>
-         <a href="órarend.html" class="btn btn-success" role="button">Órarend</a>
-         <a href="rólunk.html" class="btn btn-success" role="button">Rólunk</a>
-         <a href="https://gyszc-jedlik.e-kreta.hu/Adminisztracio/Login" class="btn btn-success" target="_blank" rel="noopener">Kréta</a>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: xx-large;">
+          <button class="navbar-toggler" style="margin: auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="Főoldal.html">Főoldal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tanáraink.html">Tanáraink</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="események.html">Események</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galéria.html">Galéria</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="órarend.html">Órarend</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="rólunk.html">Rólunk</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://gyszc-jedlik.e-kreta.hu/Adminisztracio/Login" target="_blank" rel="noopener">Kréta</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
      </header>
       </div>
-      <h1 style="text-align: center; width: 1000px; margin: auto;" class="bszoveg" class="center" font-weigh="bold">Üdvözöljük iskolánk galériájában!</h1>
-      <p style="text-align: center; width: 1000px; margin: auto;" class="bszoveg" class="center">Ezen az oldalon az iskolánk által készített, nagyobb eseményeken összegyűjtött fényképeket tekinthetnek meg.</p>
+      <div>
+          <h1 style="text-align: center; width: 1000px; margin: auto;" class="bszoveg" class="center" font-weigh="bold">Üdvözöljük iskolánk galériájában!</h1>
+          <p style="text-align: center; width: 1000px; margin: auto;" class="bszoveg" class="center">Ezen az oldalon az iskolánk által készített, nagyobb eseményeken összegyűjtött fényképeket tekinthetnek meg. Nyomja meg a gombokat, hogy megváltoztassa a képek állását.</p>
+          <div style="margin-left: 900px">
+            <button class="gombu" onclick="one()">1</button>
+            <button class="gombu active" onclick="two()">2</button>
+            <button class="gombu" onclick="four()">4</button>
+          </div>
+      </div>
       <br>
 
       <!--Nesztek java script: https://www.w3schools.com/howto/howto_js_image_grid.asp 
@@ -32,38 +60,24 @@
 
       <div class="sor"> 
         <div class="column">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
+          <img src="../Képek/gal_1.png" title="verekedés az iskola előtt" alt="verekedés" style="width:100%; border: 1px white solid;" >
+          <img src="../Képek/gal_2.jpg" title="a szertár kinyitása" alt="a szertár kinyitása" style="width:100%; border: 1px white solid;">
+          <img src="../Képek/gal_3.jpg" title="az autóban felejtett slusszkulcs története" alt="autó nyitás" style="width:100%; border: 1px white solid;">
         </div>
         <div class="column">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
+          <img src="../Képek/gal_4.jpg" title="szelektív hulladékgyűjtés" alt="szelektív hulladékgyűjtés" style="width:100%; border: 1px white solid;">
+          <img src="../Képek/gal_5.jpg" title="szörp fogyasztás" alt="szörp fogyasztás" style="width:100%; border: 1px white solid;">
+          <img src="../Képek/gal_6.jpg" title="tömegközlekedés használata" alt="tömegközlekedés használata" style="width:100%; border: 1px white solid;">
         </div>  
         <div class="column">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
+          <img src="../Képek/gal_7.jpg" title="játszóterezés" alt="játszóterezés" style="width:100%; border: 1px white solid;">
+          <img src="../Képek/gal_8.jpg" title="erőnléti edzés" alt="erőnléti edzés"  style="width:100%; border: 1px white solid;">
+          <img src="../Képek/gal_9.jpg" title="az igazgató autója" alt="az igazgató autója" style="width:100%; border: 1px white solid;">
         </div>
         <div class="column">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
+          <img src="../Képek/gal_10.webp" title="a helyi lakosok segítése" alt="a helyi lakosok segítése" style="width:100%; border: 1px white solid;">
+          <img src="../Képek/gal_11.webp" title="élelemszerzés" alt="élelemszerzés" style="width:100%; border: 1px white solid;">
+          <img src="../Képek/gal_12.webp" title="feszültség levezetés" alt="feszültség levezetés" style="width:100%; border: 1px white solid;">
         </div>
       </div>
       

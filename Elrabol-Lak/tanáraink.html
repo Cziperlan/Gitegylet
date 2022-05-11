@@ -9,35 +9,81 @@
     <title>Tanáraink</title>
 </head>
 <body>
-    <header>
+    <header style="background-color: #a1a1a1; background-image: none;">
       <img id="header" src="../Képek/header.jpg" alt="Elrabol-Lak Szakmunkásképző">
-        <div class="btn-group btn-group-lg">
-         <a href="Főoldal.html" class="btn btn-success" role="button">Főoldal</a>
-         <a href="tanáraink.html" class="btn btn-success" role="button">Tanáraink</a>
-         <a href="események.html" class="btn btn-success" role="button">Események</a>
-         <a href="galéria.html" class="btn btn-success" role="button">Galéria</a>
-         <a href="órarend.html" class="btn btn-success" role="button">Órarend</a>
-         <a href="rólunk.html" class="btn btn-success" role="button">Rólunk</a>
-         <a href="https://gyszc-jedlik.e-kreta.hu/Adminisztracio/Login" class="btn btn-success" target="_blank" rel="noopener">Kréta</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: xx-large;">
+        <button class="navbar-toggler" style="margin: auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="Főoldal.html">Főoldal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tanáraink.html">Tanáraink</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="események.html">Események</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galéria.html">Galéria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="órarend.html">Órarend</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rólunk.html">Rólunk</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://gyszc-jedlik.e-kreta.hu/Adminisztracio/Login" target="_blank" rel="noopener">Kréta</a>
+            </li>
+          </ul>
         </div>
+      </nav>
      </header>
-      <div class="container">
-        <img src="../Képek/Pablo Escobar címzetes Igazgató.jpg" alt="Pablo Escobar" class="image" title="Pablo Escobar">
-        <div class="overlay">Pablo Escobar, címzetes igazgató</div>
-      </div>
-      </div>
-
-      <div class="container">
-        <img src="../Képek/Aurél Tanár Úr.jpg" alt="Lakatos Aurél" class="image" title="Lakatos Aurél">
-        <div class="overlay">Lakatos Aurél, Testnevelés tanár</div>
-      </div>
-      </div>
-
-      <div class="container">
-        <img src="../Képek/Csaba Tanár Úr.jpg" alt="Dézsi Csaba" class="image" title="Lakatos Aurél">
-        <div class="overlay">Lakatos Aurél, Testnevelés tanár</div>
-      </div>
-      </div>
+     <table>
+       <tr>
+         <td>
+            <div class="container">
+                  <img src="../Képek/Pablo Escobar címzetes Igazgató.jpg" alt="Pablo Escobar" class="tanarkep" title="Pablo Escobar" style="border: 1px white solid;">
+                  <div class="overlay">Pablo Escobar, a jelenleg elérhetetlen igazgató</div>
+            </div>
+         </td>
+         <td>
+            <div class="container">
+                    <img src="../Képek/Aurél Tanár Úr.jpg" alt="Lakatos Aurél" class="tanarkep" title="Lakatos Aurél" style="border: 1px white solid;">
+                    <div class="overlay">Lakatos Aurél, Testnevelés tanár</div>
+            </div>
+         </td>
+         <td>
+            <div class="container">
+                    <img src="../Képek/Csaba Tanár Úr.jpg" alt="Dézsi Csaba" class="tanarkep" title="Lakatos Aurél" style="border: 1px white solid;">
+                    <div class="overlay">Lakatos Aurél, Testnevelés tanár</div>
+            </div>
+         </td>
+       </tr>
+       <tr>
+         <td>
+            <div class="container">
+              <img src="../Képek/Ferenc Tanár Úr.jpg" alt="Ferenc Tanár Úr" class="tanarkep" title="Ferenc Tanár Úr" style="border: 1px white solid;">
+              <div class="overlay">Ferenc Tanár Úr,  </div>
+            </div>
+         </td>
+         <td>
+            <div class="container">
+              <img src="../Képek/Gabi Bácsi.jpg" alt="Gabi Bácsi" class="tanarkep" title="Gabi Bácsi" style="border: 1px white solid;">
+              <div class="overlay">Gabi Bácsi</div>
+            </div>
+         </td>
+         <td>
+            <div class="container">
+              <img src="../Képek/Győző Tanár Úr.jpg" alt="Győző Tanár Úr" class="tanarkep" title="Győző Tanár Úr" style="border: 1px white solid;">
+              <div class="overlay">Győző Tanár úr, a szexuális felvilágosítás mestere</div>
+            </div>
+         </td>
+       </tr>
+    </table>
       <p id="info-kartya">
         <img src="../Képek/Iskolánk címere.png" id="címer">
         Kapcsolatba lépne velünk? <br>

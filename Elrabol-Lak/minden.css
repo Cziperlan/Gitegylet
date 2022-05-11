@@ -6,81 +6,11 @@ body {
   color: white;
 }
 
-.nav ul {
-    background-color: rgb(33, 32, 32);
-    overflow: hidden;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-}
-.nav li {
-    float: left;
-    border-right: 1px solid white;
-}
-.nav li a {
-    color: white;
-    display: block;
-    padding: 10px 30px;
-    text-align: center;
-    text-decoration: none;
-
-}
-.nav li a:hover {
-    background-color: rgb(53, 51, 51);
-}
-
 #header {
     margin-right: 450px;
     margin-left: 450px;
 }
 
-.kontener {
-    position: relative;
-    width: 50%;
-}
-
-.m-image {
-    display: block;
-    width: 400px;
-    height: auto;
-    border: white 1px solid;
-    border-radius: 4px;
-}
-  
-.morpho {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #1e2122;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-}
-  
-.kontener:hover .morpho {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-  
-.m-szöveg {
-  color: white;
-  font-size: xx-large;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 
 
 .radius {
@@ -219,4 +149,8 @@ body {
     background-color: #666;
     color: white;
   }
-  
+  .tanarkep {
+    display: block;
+    height: auto;
+    width: 300px;
+  }
