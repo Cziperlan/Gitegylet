@@ -30,8 +30,6 @@ function panelek(db){
     document.getElementById('tetofelulet').value = db * 3.5
 }
 
-
-
 var elements = document.getElementsByClassName("column");
 
 var i;
