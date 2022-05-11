@@ -154,4 +154,18 @@ body {
     height: auto;
     width: 300px;
   }
-  
+
+  .lebeg .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .lebeg .img-btm {
+    position: relative;
+    display: block;
+  }
+  .lebeg:hover .img-top {
+    display:inline
+  }
