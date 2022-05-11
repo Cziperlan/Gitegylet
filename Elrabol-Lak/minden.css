@@ -21,6 +21,7 @@ body {
   font-size: large;
   background-color: rgb(58, 58, 58);
   color: white;
+  margin-top: 1%;
 }
  
 .ui {
@@ -175,4 +176,17 @@ body {
     height: auto;
     border-radius: 4px;
     border: 0.5px white solid;
+  }
+
+  .oracim {
+    background-color: rgba(15, 15, 15, 0.849);
+    padding: 12px;
+    text-align: center; 
+    font-size: larger; 
+    color: white;
+    margin-right: 40% ;
+    margin-left: 40%;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px black;
+    margin-top: 1%;
   }
