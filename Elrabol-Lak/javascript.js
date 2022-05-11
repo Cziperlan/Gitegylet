@@ -56,7 +56,7 @@ function four() {
 }
 
 var header = document.getElementById("myHeader");
-var btns = header.getElementsByClassName("btn");
+var btns = header.getElementsByClassName("gombu");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
