@@ -78,11 +78,8 @@ body {
     margin-right: 300px;
   }
 
-  .container {
-    position: relative;
-    width: 50%;
-    max-width: 300px;
-  }
+
+  
   .image {
     display: block;
     width: 111%;
