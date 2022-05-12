@@ -163,12 +163,11 @@ body {
   }
   .lebeg .img-btm {
     position: relative;
-    display: block;
+    display: block;   
     width: 600px;
     height: auto;
     border-radius: 4px;
     border: 0.5px white solid;
-    
   }
   .lebeg:hover .img-top {
     display:inline;
@@ -176,6 +175,7 @@ body {
     height: auto;
     border-radius: 4px;
     border: 0.5px white solid;
+   
   }
 
   .oracim {
