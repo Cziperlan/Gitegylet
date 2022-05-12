@@ -78,7 +78,11 @@ body {
     margin-right: 300px;
   }
 
-
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+  }
   
   .image {
     display: block;
@@ -148,7 +152,7 @@ body {
   .tanarkep {
     display: block;
     height: auto;
-    width: 300px;
+    width: 350px;
     height: 400px;
   }
 
